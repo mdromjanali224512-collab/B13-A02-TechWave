@@ -50,7 +50,12 @@ nav{
     grid-template-rows: repeat(3,1fr);
     gap: 30px;
 }
-
+.why-main-container{
+    padding: 120px 200px;
+}
+.why-main{
+    padding: 112px 40px;
+}
        /* feature */
        .feature-container{
 margin: 120px 200px;
@@ -60,6 +65,7 @@ margin: 120px 200px;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
 }
+
         @media screen and (max-width: 576px) {
             .hide{
                 display: none;
@@ -103,6 +109,9 @@ margin: 20px;
     grid-template-columns: repeat(1,1fr);
     
 }
+.why-main{
+    padding: 20px;
+}
         }
 
 
@@ -122,10 +131,19 @@ margin: 20px;
                 margin: 20px 50px  ;
             }
              .why-container{
-                grid-template-columns: repeat(1,1fr);
+                grid-template-columns: repeat(3,1fr);
                 grid-template-rows: repeat(1,1fr);
+               
             }
+            .why-main{
+    padding: 50px 40px;
+     width: 250px;
+}
              .feature-container{
 margin: 20px 50px  ;
        }
+      
+.why-main-container{
+    padding: 120px 50px;
+}
         }
