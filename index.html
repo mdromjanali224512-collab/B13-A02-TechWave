@@ -8,32 +8,149 @@
     <title>B13-A02 TeachWave</title>
     <link rel="stylesheet" href="./style.css">
     <style>
-        .p-text{
-            color: #FFFFFF;
-            font-size: 16px;
-            line-height: 24px;
-        }
+       
+
         
     </style>
 </head>
 <body class="bg-[#1A0B2E] inter">
-    <header>
-        <nav class="flex items-center justify-between mx-[200px] my-8">
-            <div>
-                <img src="./assets/TechWave.png" alt="">
+    <header class="mb-24 border-b border-gray-600">
+        <nav class="flex items-center justify-between">
+            <div class="baner-img">
+            
+                <img class="" src="./assets/TechWave.png" alt="">
+                
             </div>
-            <ul class="p-text flex gap-8">
+            <ul class="p-text flex gap-8 hide">
                 <li><a href="">About</a></li>
                 <li><a href="">Episodes</a></li>
                 <li><a href="">Host</a></li>
             </ul>
-            <div class="">
-                <button class="flex text-[16px] text-[#ffffff] font-semibold items-center gap-1 bg-[linear-gradient(90deg,rgba(235,183,12,1)_4%,rgba(235,47,14,1)_46%,rgba(14,62,158,1)_95%)] rounded-full px-4 py-4">Subscribe
+            <div class="hide">
+                <button class="text-[16px] flex text-[#ffffff] font-semibold items-center gap-1 bg-[linear-gradient(90deg,rgba(235,183,12,1)_4%,rgba(235,47,14,1)_46%,rgba(14,62,158,1)_95%)] rounded-full px-4 py-3">Subscribe
                     <img class="h-3" src="./assets/Vector.png" alt="">
                 </button>
                 
             </div>
+            <div class="menu">
+                    <img class="" src="./assets/hamburger-menu.png" alt="">
+                </div>
         </nav>
     </header>
+    <main>
+        <!-- baner section -->
+         <section class="baner mb-24">
+            <div class="">
+
+<img class="image" src="./assets/microphone.png" alt="">
+            <h1 class="text-[#FFFFFF]  font-extrabold text-6xl">TechWave</h1>
+            <p class="p-text mt-2 mb-6">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+            
+<div class="flex justify-center items-center gap-2">
+                <button class="text-[16px] flex text-[#ffffff] font-semibold items-center gap-1 bg-[linear-gradient(90deg,rgba(235,183,12,1)_4%,rgba(235,47,14,1)_46%,rgba(14,62,158,1)_95%)] rounded-full px-4 py-3">
+                    <img src="./assets/spotify.png" alt="">
+                    Listen On Spotify
+                </button>
+                <button class=" text-[16px]
+                flex items-center gap-1 border-2 border-[#00FF88] py-3 px-5 text-[#00FF88] rounded-full font-semibold
+                ">
+                    <img src="./assets/message.png" alt="">
+                    Subscribe
+                </button>
+            </div>
+            </div>
+         </section>
+         <!-- about section -->
+          <section class="text-center">
+            <h1 class="text-5xl font-bold text-[#FFFFFF] mb-4">About The Podcast</h1>
+            <p class="p-text mx-auto w-2/3 mb-40">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
+We break down complex topics into digestible insights, explore productivity strategies that actually work,
+and share stories of personal growth from industry leaders.
+<br>
+<br>
+Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+<div class="about-container mb-32">
+   <div>
+    <h1 class="text-[#00FF88] text-5xl font-black mb-4">150K+</h1>
+    <p class="p-text">Monthly Listeners</p>
+   </div>
+   <div>
+    <h1 class="text-[#00FF88] text-5xl font-black mb-4">200+</h1>
+    <p class="p-text">Episodes Published</p>
+   </div>
+   <div>
+    <h1 class="text-[#00FF88] text-5xl font-black mb-4">4.9*</h1>
+    <p class="p-text">Average Rating</p>
+   </div>
+   <div>
+    <h1 class="text-[#00FF88] text-5xl font-black mb-4">50+</h1>
+    <p class="p-text">Industry Experts</p>
+   </div>
+  
+
+</div>
+          </section>
+          <!-- why choose -->
+           <section class=" bg-[#230E3D]  md:px-[200px] md:py-[120px] p-5">
+            <h1 class="font-bold text-5xl text-center pt-10 text-[#ffffff] mb-10">Why Choose TechWave</h1>
+            <div class="why-container">
+<div class="grid md:row-span-2 bg-[#351165] shadow-2xl rounded-4xl  px-10 py-28  "><img src="./assets/headphone.png" alt="">
+    <h1 class="font-bold text-6 text-[#FFFFFF] my-4">Premium Audio Quality</h1>
+<p class="p-text">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+</div>
+<div class="grid md:col-span-2 bg-[#351165] shadow-2xl rounded-4xl p-10 ">
+<img src="./assets/device.png" alt="">
+    <h1 class="font-bold text-6 text-[#FFFFFF] my-4">Mobile Friendly</h1>
+<p class="p-text">Listen on the go with seamless mobile experience and offline downloads.</p>
+
+</div>
+<div class="grid md:col-span-2 bg-[#351165] shadow-2xl rounded-4xl p-10">
+   <img src="./assets/location.png" alt="">
+    <h1 class="font-bold text-6 text-[#FFFFFF] my-4">Global Community</h1>
+<p class="p-text">Connect with tech enthusiasts from over 120 countries worldwide.</p> 
+
+</div>
+<div class="grid md:col-span-2 bg-[#351165] shadow-2xl rounded-4xl p-10 ">
+    <img src="./assets/zap-fast.png" alt="">
+    <h1 class="font-bold text-6 text-[#FFFFFF] my-4">Exclusive Interviews</h1>
+<p class="p-text">Get unprecedented access to industry tit, failures, and success strategies.</p>
+</div>
+<div class=" bg-[#351165] shadow-2xl rounded-4xl p-10">
+    <img src="./assets/resource.png" alt="">
+    <h1 class="font-bold text-6 text-[#FFFFFF] my-4">Rich Resources</h1>
+<p class="p-text">Access show notes, transcripts, and additiode.</p>
+</div>
+
+            </div>
+           </section>
+           <!-- featured -->
+            <section class="feature-container">
+                <h1>Featured Episodes</h1>
+                <div class="vidio-container">
+                    <div>
+                    <iframe class="w-full " src="https://www.youtube.com/embed/iVO6C4dVBYg?si=ekFk7NLajVV28aYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                     <div class="bg-[#250D44] rounded-b-2xl p-6   ">
+                        
+                        <h1 class="font-bold text-6 text-[#ffffff] mt-6 mb-3">The Future of AI in Everyday Life</h1>
+                        <p class="p-text">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+                     </div>
+                </div><div>
+                    <iframe class="w-full" src="https://www.youtube.com/embed/JbFvJTSd5zI?si=3NUG0JZyukuATAwT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                     <div class="bg-[#250D44] rounded-b-2xl p-6   ">
+                        
+                        <h1 class="font-bold text-6 text-[#ffffff] mt-6 mb-3">The Future of AI in Everyday Life</h1>
+                        <p class="p-text">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+                     </div>
+                </div><div>
+                   <iframe class="w-full" src="https://www.youtube.com/embed/7UTww6hTq3E?si=uwSmUnco1e1Di4Lb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                     <div class="bg-[#250D44] rounded-b-2xl p-6   ">
+                        
+                        <h1 class="font-bold text-6 text-[#ffffff] mt-6 mb-3">The Future of AI in Everyday Life</h1>
+                        <p class="p-text">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+                     </div>
+                </div>
+                </div>
+            </section>
+    </main>
 </body>
 </html>
