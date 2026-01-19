@@ -33,6 +33,7 @@ nav{
         text-align: center;
         
        }
+      
        .image{
         margin: auto ;
         padding: 77px 0 137px ;
@@ -83,6 +84,12 @@ margin: 120px 200px;
 .social-button{
     display: flex;
     gap: 8px;
+}
+/* footer */
+footer{
+    background-image: url('./assets/footer-bg.png');
+    background-size: cover;
+    background-position: center center;
 }
         @media screen and (max-width: 576px) {
             .hide{
@@ -138,8 +145,11 @@ margin: 20px;
     margin: 20px;
     text-align: center;
 }
+.host-container{
+    padding: 30px;
+}
 .host-img{
- margin-left: 25px;
+ margin-left: 40px;
 }
 .host-main h1{
     padding-top: 60px;
@@ -149,6 +159,9 @@ margin: 20px;
 }
 .social-button{
     justify-content: space-between;
+}
+.baner-new{
+    right: 25%;
 }
         }
 
