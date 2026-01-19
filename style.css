@@ -84,6 +84,7 @@ margin: 120px 200px;
 .social-button{
     display: flex;
     gap: 8px;
+
 }
 /* footer */
 footer{
@@ -158,7 +159,7 @@ margin: 20px;
     grid-template-columns: repeat(1,1fr);
 }
 .social-button{
-    justify-content: space-between;
+    justify-content: center;
 }
 .baner-new{
     right: 25%;
