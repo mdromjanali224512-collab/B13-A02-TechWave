@@ -33,7 +33,17 @@ nav{
         text-align: center;
         
        }
-      
+      @keyframes animation-jump {
+    0%,100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+}
+.baner-new{
+    animation: animation-jump 1s ease-in-out 2s infinite;
+}
        .image{
         margin: auto ;
         padding: 77px 0 137px ;
